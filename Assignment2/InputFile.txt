@@ -1,0 +1,5 @@
+﻿A delegate is a type that represents references to methods with Rahul a particular parameter list and return type. When you instantiate a delegate , you can associate its instance with any method with a compatible signature and return type. You can invoke (or call) the method through the delegate instance.
+
+Delegates are used to pass methods as arguments to other methods. Event handlers are Rahul nothing more than methods that are invoked through delegate . You create a custom method, and a class such as a windows control can call your method when a certain event occurs.
+
+This ability to refer to a method as a parameter makes delegates ideal for defining callback methods. You can write a method that compares two objects in your application. That method can be used in a delegate for a sort algorithm. Because the comparison code is separate from the library, the sort method can be more general.
